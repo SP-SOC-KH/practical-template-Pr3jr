@@ -12,6 +12,7 @@ module.exports.generateModulesPerformance = function generateModulesPerformance(
         });
 };
 
+
 module.exports.calculateStudentsGPA = function calculateStudentsGPA() {
     const sql = 'CALL calculate_students_gpa()';
     return query(sql)
